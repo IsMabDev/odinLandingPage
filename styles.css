@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  1width: 100%;
+}
+html {
+  background-color: black;
+}
+body {
+  margin-top: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vw;
+  margin-top: 0;
+  height: 100rem;
+
+  border: 3px solid red;
+}
+.part1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 5vw;
+  color: white;
+  background-color: #1f2937;
+  width: 100%;
+}
+.part2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 30vh; */
+  width: 100%;
+  padding: 0 10vw;
+}
+.quote {
+  flex: 1;
+  padding: 0 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #e5e7eb;
+}
+.footer-container {
+  display: flex;
+  background-color: white;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  background-color: #3882f6;
+}
+header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+
+.description {
+  display: flex;
+}
+
+.description-right {
+  background-color: #6d747d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-right: 0px;
+}
+.description-body {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+h1 {
+  font-size: 48px;
+}
+button {
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  margin: 20px;
+  padding: 10px 5px;
+  border-radius: 10%;
+  width: 20%;
+  color: white;
+}
+
+.part2-title {
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.part2-items {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-width: 70vw;
+}
+.part2-single-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.part2-images-descriptions {
+  color: #4c5664;
+  text-align: center;
+  margin: 5px;
+}
+.part2-images {
+  height: 15vw;
+  width: 15vw;
+  border: 3px solid #5d97f8;
+  border-radius: 10%;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+}
